@@ -1,0 +1,109 @@
+/*
+	Theme Name: Laundry Theme 
+	Theme URI: https://www.devrubel.com
+	Author: Rubel hasan
+	Author URI: devrubel.com
+	Version: 1.0
+	Text Domain: laundry
+	Tags: Laundray, cleaner, dry cleaner, Wash House
+	Description: This is another basic theme for developemtn purpose. 
+
+*/
+a{
+	color: #2d2d2d;
+}
+.card-img{
+	height: auto;
+}
+.page-numbers{
+
+}
+.blog-pagination .page-numbers {
+    font-size: 14px;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    text-align: center;
+    margin-left: -1px;
+    line-height: 45px;
+    width: 45px;
+    height: 45px;
+    border-radius: 0 !important;
+    color: #8a8a8a;
+    border: 1px solid #f0e9ff;
+    margin-right: 10px;
+}
+.blog-pagination .page-numbers.current {
+    background-color: #fbf9ff;
+    border-color: #f0e9ff;
+    color: #888888;
+}
+.thumb img{
+	height: 75px;
+	width: 75px;
+}
+ul.social-icons li {
+    display: inline-block;
+}
+ul.social-icons li a {
+    font-size: 14px;
+    color: #999999;
+}
+.thumb.prev{
+	margin-right: 20px;
+}
+.thumb.next{
+	margin-left: 20px;
+}
+.comment-author.vcard img{
+	width: 70px;
+	border-radius: 50%;
+	height: 70px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.comment-body p {
+    margin-bottom: 10px;
+    color: #777777;
+    font-size: 15px;
+}
+.comment-form input {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+.comment-form textarea {
+    padding-top: 18px;
+    border-radius: 12px;
+    height: 100% !important;
+    border-radius: 0px;
+    height: 100% !important;
+    border: 1px solid #e5e6e9;
+}
+.comment-form label {
+    width: 100%;
+}
+.comment-form .submit:hover {
+    background: #6785FF;
+    color: #fff !important;
+    border: 1px solid #6785FF;
+}
+.comment-form .submit{
+    background: #fff;
+    color: #6785FF !important;
+    display: inline-block;
+    padding: 10px 44px;
+    font-family: "Raleway",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #6785FF;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #6785FF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
