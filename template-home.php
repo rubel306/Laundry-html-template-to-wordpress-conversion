@@ -30,6 +30,8 @@
             </div>
         </section>
         <!-- slider Area End-->
+
+        
         <!--? Services Area Start -->
         <section class="services-area pt-top border-bottom pb-20 mb-60">
             <div class="container">
@@ -118,7 +120,7 @@
                                 	<?php endif; ?>
                                 </div>
                                 <div class="cat-cap">
-                                    <h5><a href="services.html"><?php the_title(); ?></a></h5>
+                                    <h5><a href="<?php echo the_permalink();?>"><?php the_title(); ?></a></h5>
                                    <?php the_content(); ?>
                                 </div>
                             </div>
@@ -139,7 +141,7 @@
                                 	<?php endif; ?>
                                 </div>
                                 <div class="cat-cap">
-                                    <h5><a href="services.html"><?php the_title(); ?></a></h5>
+                                    <h5><a href="<?php echo the_permalink();?>"><?php the_title(); ?></a></h5>
                                    <?php the_content(); ?>
                                 </div>
                             </div>
